@@ -1,0 +1,13 @@
+.navbar-nav .dropdown-menu {
+  margin-left: -30% !important;
+  background-color: #fdf6e3;
+}
+#dropdown {
+  margin-left: 50px;
+}
+#dropdown .dropdown-item {
+  color: black;
+}
+#dropdown .dropdown-item:hover {
+  color: white;
+}

@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">CAR TRADER</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item" id="dropdown">
+        <a class="nav-link" href="#">
+          <span class="btn-group" dropdown placement="left">
+            <span id="button-animated" dropdownToggle class="dropdown-toggle"
+                    aria-controls="dropdown-animated">
+              <i class="fas fa-user"></i> Hello, <strong>Benjamin</strong> <span class="caret"></span>
+            </span>
+<!--            <i class="fas fa-user dropdown-toggle" dropdownToggle aria-controls="dropdown-animated"></i>-->
+            <ul id="dropdown-animated" *dropdownMenu class="dropdown-menu"
+                role="menu" aria-labelledby="button-animated">
+              <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+              <li role="menuitem"><a class="dropdown-item" href="#">Another action</a>
+              </li>
+              <li role="menuitem"><a class="dropdown-item" href="#">Something else
+                here</a></li>
+            </ul>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--<i class="fas fa-user"></i>-->
