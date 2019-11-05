@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {BsDropdownModule} from 'ngx-bootstrap';
+import { LoginSignupComponent } from './components/login-signup/login-signup.component';
+import { ListingsComponent } from './components/listing/listings/listings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
+    LoginSignupComponent,
+    ListingsComponent
   ],
   imports: [
     BrowserModule,

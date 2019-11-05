@@ -6,8 +6,11 @@
   margin-left: 50px;
 }
 #dropdown .dropdown-item {
-  color: black;
+  color: #073642;
 }
 #dropdown .dropdown-item:hover {
   color: white;
+}
+.nav-link:hover {
+  cursor: pointer;
 }
