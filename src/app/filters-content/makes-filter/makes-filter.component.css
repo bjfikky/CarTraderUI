@@ -1,26 +1,10 @@
-.listing-page {
-  display: flex;
-  padding: 10px 0;
-  margin: 10px 0;
-}
-aside {
-  width: 23%;
-  border: 1px solid grey;
-  padding: 10px;
-  border-radius: 5px;
-  max-width: 300px;
-}
-main {
-  padding: 0 40px;
-}
-main hr {
-  width: 100%;
-}
 .filter {
   border-top: 1px solid grey;
-  max-height: 400px;
   margin-top: 20px;
   padding: 5px;
+}
+.filter-list {
+  max-height: 150px;
   overflow: auto;
 }
 ::-webkit-scrollbar {

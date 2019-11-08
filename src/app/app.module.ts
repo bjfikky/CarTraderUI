@@ -12,6 +12,7 @@ import { LoginComponent } from './components/login-signup/login/login.component'
 import { SignupComponent } from './components/login-signup/signup/signup.component';
 import { ListingDetailComponent } from './components/listing/listing-detail/listing-detail.component';
 import { ListingFormComponent } from './components/listing/listing-form/listing-form.component';
+import { MakesFilterComponent } from './filters-content/makes-filter/makes-filter.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ListingFormComponent } from './components/listing/listing-form/listing-
     LoginComponent,
     SignupComponent,
     ListingDetailComponent,
-    ListingFormComponent
+    ListingFormComponent,
+    MakesFilterComponent
   ],
   imports: [
     BrowserModule,
