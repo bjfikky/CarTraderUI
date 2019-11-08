@@ -2,7 +2,7 @@
   <h5>Year</h5>
   <div class="filter-list">
       <span *ngFor="let dummy of ' '.repeat(70).split(''), let x = index">
-    <input type="checkbox" name="vehicle1" value="Bike"> {{date.getFullYear() - x + 1}} <br>
+    <input type="checkbox" name="vehicleYear" value="{{date.getFullYear() - x + 1}}"> {{date.getFullYear() - x + 1}} <br>
   </span>
   </div>
 </div>

@@ -11,6 +11,7 @@ aside {
   max-width: 300px;
 }
 main {
+  width: 77%;
   padding: 0 40px;
 }
 main hr {
@@ -22,6 +23,26 @@ main hr {
   margin-top: 20px;
   padding: 5px;
   overflow: auto;
+}
+.listing {
+  padding: 20px 10px;
+  border-top: 1px solid grey;
+}
+.year-color {
+  margin-left: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+.car-price {
+  color: #43bb20;
+}
+.features {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+.contact {
+  margin-top: 20px;
 }
 ::-webkit-scrollbar {
   width: 5px;
