@@ -1,0 +1,24 @@
+.year-color {
+  margin-left: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+.car-price {
+  color: #43bb20;
+}
+.features {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+.contact {
+  margin-top: 20px;
+}
+.fa-hand-point-right {
+  color: #e1180c;
+}
+.contact-seller:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fdf6e3;
+}

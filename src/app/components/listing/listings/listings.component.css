@@ -17,6 +17,11 @@ main {
 main hr {
   width: 100%;
 }
+.car-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fdf6e3;
+}
 .filter {
   border-top: 1px solid grey;
   max-height: 400px;
@@ -27,6 +32,9 @@ main hr {
 .listing {
   padding: 20px 10px;
   border-top: 1px solid grey;
+}
+.used-new {
+  color: #f0321f;
 }
 .year-color {
   margin-left: 10px;
@@ -43,6 +51,14 @@ main hr {
 }
 .contact {
   margin-top: 20px;
+}
+.fa-hand-point-right {
+  color: #e1180c;
+}
+.contact-seller:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fdf6e3;
 }
 ::-webkit-scrollbar {
   width: 5px;
