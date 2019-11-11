@@ -1,6 +1,15 @@
 .listing {
   margin: 10px 0;
   padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+}
+main {
+  width: 70%;
+}
+aside {
+  width: 30%;
+  margin: 0 20px;
 }
 .year-color {
   margin-left: 10px;
@@ -26,5 +35,27 @@
 }
 .contact-form {
   margin: 20px 0;
+}
+
+@media screen and (min-width: 1400px) {
+  main {
+    width: 80%;
+  }
+  aside {
+    width: 20%;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .listing {
+    flex-direction: column;
+  }
+  main, aside {
+    width: 100%;
+  }
+  aside {
+    margin: 0;
+  }
 }
 
