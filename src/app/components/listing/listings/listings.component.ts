@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
-  selector: 'app-listings',
-  templateUrl: './listings.component.html',
-  styleUrls: ['./listings.component.css']
+    selector: 'app-listings',
+    templateUrl: './listings.component.html',
+    styleUrls: ['./listings.component.css']
 })
 export class ListingsComponent implements OnInit {
 
-  constructor() { }
+    constructor(private router: Router) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
+    goToDetails(listingId: string) {
+        this.router.navigate([`listings/${listingId}`])
+    }
 }

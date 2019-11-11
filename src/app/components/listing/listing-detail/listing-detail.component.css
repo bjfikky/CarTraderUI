@@ -1,3 +1,7 @@
+.listing {
+  margin: 10px 0;
+  padding: 10px 10px;
+}
 .year-color {
   margin-left: 10px;
   font-size: 16px;
@@ -6,6 +10,9 @@
 .car-price {
   color: #43bb20;
 }
+.used-new {
+  color: #f0321f;
+}
 .features {
   columns: 3;
   -webkit-columns: 3;
@@ -13,12 +20,11 @@
 }
 .contact {
   margin-top: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+  box-shadow: 1px 1px 10px 1px #888888;
 }
-.fa-hand-point-right {
-  color: #e1180c;
+.contact-form {
+  margin: 20px 0;
 }
-.contact-seller:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: #fdf6e3;
-}
+

@@ -1,8 +1,10 @@
 <div class="listing">
   <div class="row">
-    <div class="col-sm-7">
-      <h3>Toyota Camry - <span class="trim">xls</span> <span class="year-color">2018, <strong>white</strong></span></h3>
+    <div class="col-sm-8">
+      <h3 class="car-name">Toyota Camry - <span class="trim">xls</span> <span class="year-color">2018, <strong>white</strong></span></h3>
       <h4 class="car-price"><strong>$23,000</strong></h4>
+      <h6><strong class="used-new">NEW </strong> <em>0 miles</em></h6>
+      <br>
       <h5><strong>Description:</strong></h5>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda, aut debitis ducimus enim,
         ex fuga laudantium odit, possimus quam qui quia quisquam reiciendis repellat sed sequi temporibus vel veniam.</p>
@@ -22,12 +24,32 @@
         <li>feature</li>
       </ul>
     </div>
-    <div class="col-sm-5">
-      <img src="https://picsum.photos/400/300" alt="" width="400" height="auto">
+    <div class="col-sm-4">
       <div class="contact">
+        <h5 class="text-info"><strong>Contact Seller</strong></h5>
         <h6><strong>Seller:</strong> Ben Orimoloye</h6>
         <h6><strong>Location:</strong> Fairfax, VA - 22033</h6>
-        <h6 class="contact-seller"><i class="far fa-hand-point-right"></i> Click <strong>HERE</strong> to contact seller</h6>
+        <div class="contact-form">
+          <form action="">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="10" class="form-control"></textarea>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Send Message">
+          </form>
+        </div>
       </div>
     </div>
   </div>
