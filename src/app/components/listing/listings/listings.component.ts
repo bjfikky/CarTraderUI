@@ -14,6 +14,6 @@ export class ListingsComponent implements OnInit {
     }
 
     goToDetails(listingId: string) {
-        this.router.navigate([`listings/${listingId}`])
+        this.router.navigate([`listings/${listingId}`]);
     }
 }

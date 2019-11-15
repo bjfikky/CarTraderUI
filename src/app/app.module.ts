@@ -13,6 +13,8 @@ import { SignupComponent } from './components/login-signup/signup/signup.compone
 import { ListingDetailComponent } from './components/listing/listing-detail/listing-detail.component';
 import { ListingFormComponent } from './components/listing/listing-form/listing-form.component';
 import { MakesFilterComponent } from './filters-content/makes-filter/makes-filter.component';
+import {NgxTypeaheadModule} from 'ngx-typeahead';
+import {FileUploadModule} from 'ng2-file-upload';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { MakesFilterComponent } from './filters-content/makes-filter/makes-filte
     AppRoutingModule,
     BrowserAnimationsModule,
     BsDropdownModule.forRoot(),
-    TabsModule.forRoot()
+    TabsModule.forRoot(),
+    NgxTypeaheadModule,
+    FileUploadModule
   ],
   providers: [],
   bootstrap: [AppComponent]

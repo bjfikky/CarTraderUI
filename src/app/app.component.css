@@ -5,3 +5,8 @@
   margin-right: auto;
   margin-left: auto;
 }
+/deep/ .ta-results {
+  background-color: white !important;
+  opacity: 1 !important;
+  z-index: 1000 !important;
+}
